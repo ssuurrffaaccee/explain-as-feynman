@@ -1,8 +1,10 @@
 # explain-as-feynman
 
-一个用费曼学习法（Feynman Technique）讲解概念的 skill：去掉术语、用大白话和类比说清楚，并指出理解中的漏洞。
+A skill that explains concepts using the Feynman Technique: strip the jargon, use plain language and analogies, and point out the gaps in understanding.
 
-## 内容
+[中文文档](README.zh-CN.md)
+
+## Contents
 
 ```
 skills/
@@ -10,17 +12,17 @@ skills/
     └── SKILL.md
 ```
 
-## 用途
+## Usage
 
-当你希望 AI 把某个东西讲明白，而不是堆术语时使用，适用于代码、算法、数学、系统设计、论文等。
+Use it when you want the AI to actually make something clear instead of piling up terminology — works for code, algorithms, math, system design, papers, and more.
 
-触发方式：直接提出讲解类请求即可，不必点名费曼。例如：
+It triggers on any request to explain; no need to mention Feynman by name. For example:
 
-- “解释一下这段代码在干什么”
-- “讲得通俗点”
-- “ELI5”
-- “用费曼方法讲讲一致性哈希”
+- "Explain what this code does"
+- "Put it in plain English"
+- "ELI5"
+- "Explain consistent hashing using the Feynman method"
 
-## 安装
+## Installation
 
-把 `skills/explain-as-feynman` 目录复制到你的 skills 目录下（例如 `~/.claude/skills/` 或 `~/.comate/skills/`，具体路径取决于所用工具），重启客户端后即可被自动识别。
+Copy the `skills/explain-as-feynman` directory into your skills directory (e.g. `~/.claude/skills/` or `~/.comate/skills/`, depending on the tool you use), then restart the client and it will be picked up automatically.
